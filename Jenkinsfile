@@ -10,7 +10,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git branch: 'main', url:'https://github.com/Bhumikams/mavenp.git',
+                git branch: 'main', url:'https://github.com/Bhumikams/devopsmaven1.git',
                 credentialsId: 'github-token'
             }
         }
